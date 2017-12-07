@@ -51,7 +51,7 @@ plugin.registerFormatting = function (payload, callback) {
 		return setImmediate(callback, null, payload);
 	}
 
-	payload.options.push({ name: 'gif', className: 'fa fa-tenor-gif', title: 'Insert GIF' });
+	payload.options.push({ name: 'gif', className: 'fa fa-tenor-gif', title: 'Search for a GIF' });
 	callback(null, payload);
 };
 
