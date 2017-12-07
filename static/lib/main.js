@@ -20,7 +20,7 @@ $(document).ready(function () {
 				formatting.addButtonDispatch('gif', function (textarea, selectionStart, selectionEnd) {
 					Benchpress.parse('plugins/tenor-gif/modal', {}, function (html) {
 						var modal = bootbox.dialog({
-							title: 'Insert GIF',
+							title: 'Search for a GIF',
 							message: html,
 							className: 'tenor-gif-modal',
 							onEscape: true,
